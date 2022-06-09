@@ -18,7 +18,7 @@
 7. [Acknowledgements](#ack)
 
 ## PURPOSE
-### Overview  <a name="overview"></a>: The shop is a full stack ecommerce site for submissin to the Winter 2021 Mongo DB Hackathon. 
+### Overview  <a name="overview"></a>: 
 
 Please refer to the demo for sample output. 
 The live site/demo is here: https:// [insert link to live site]
@@ -31,25 +31,16 @@ The live site/demo is here: https:// [insert link to live site]
 ## PROCESS <a name="process"></a>
 ## Design <a name="design"></a>
 
-[Insert Design files if you have them; Figma, Sketch, PDF Design System]
 
-![2](https://user-images.githubusercontent.com/93551062/146629432-31e6f080-269e-458b-8628-fdaf00ef7b1d.jpg)
 
 
 
 #### Project Requirements:  <a name="requirements"></a>
 
 MVP Features 
-- Browse Product Page
-- Shopping Cart mechanism 
-- Check Out Flow
-
-
-Extra
-- Search Products functionality 
-- LogIn/Authentication 
-- Quick Shop WorkFlow
-
+- API of National Parks
+- Build out server 
+- Deploy live on Heroku
 
 
 ## Build <a name="build"></a>
@@ -60,20 +51,14 @@ Extra
 
 | Front-End | Back-End | Deploy |
 | --- | --- | --- |
- | ReactJS, HTML, CSS | Node, MongoDB | Netlify |
+ | Javascript, HTML, CSS | Node, Express | Heroku |
 
 
 
 ##### *User Journey* <a name="journey"></a>
-- User lands on page  
-- User browses product selection either by scroll or using menus
-- User selects product to add to cart
-- A user can    
+- User can perform search on National Parks
+- API returns object with park data  
 
-        - * Checks out via log in
-        - * Checks out as guest
-        
-- User fills out form
 
 
 #### Installation <a name="installation"></a>
@@ -107,13 +92,11 @@ I learned to allow ample time for debuggin because of x,y,z.
 
 The following tutorials were utilized in creating some of the features of this project. 
 Thanks to the Content Creators/Teachers
-Ania Kubow 
-Kevin Powell
+Leon Noel
 
 Collaborators
 
 | Name | Role| Email |
 | --- | --- | --- |
- |Naj N | Front-end Developer| unamedrd@gmail|
-| Teammate2 | Full-stack Developer | teammate2@gmail |
-| Teammate3 | UI/UX Designer | teammate3@gmail|
+ |Naj N | Front-end Developer| theunnamedrd@gmail|
+
