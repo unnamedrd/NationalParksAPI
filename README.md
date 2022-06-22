@@ -23,9 +23,8 @@
 Please refer to the demo for sample output. 
 The live site/demo is here: https:// [insert link to live site]
 
-**Project Timeline : 1 month** 
 
-**Project Status: MVP in Progress**
+**Project Status: in Progress**
 
 
 ## PROCESS <a name="process"></a>
@@ -76,8 +75,8 @@ I learned to allow ample time for debuggin because of x,y,z.
 
 
 #### Known Bugs <a name="bugs"></a>
-- [ ] This features needs work
-- [ ] So does this one
+- [ ] Error with deployment on Heroku, currently looking at logs to troubleshoot
+- [ ] 
 
 
 #### Additional Features for future Development <a name="features"></a>
