@@ -8,7 +8,7 @@ app.use(cors())
 
 
 const park = {
-  'yosemite': {
+  yosemite: {
     state: "California",
     peakSeason: "summer",
     lodging: "Rush Creek Lodge",
@@ -16,7 +16,7 @@ const park = {
     wildlife: false,
   },
 
-  'joshua tree': {
+  "joshua tree": {
     state: "California",
     peakSeason: "fall",
     lodging: "AirBnB",
@@ -32,7 +32,7 @@ const park = {
     wildlife: false,
   },
 
-  'olympic': {
+  olympic: {
     state: "Washington",
     peakSeason: "summer",
     lodging: "Olympic Lodge",
@@ -48,7 +48,15 @@ const park = {
     wildlife: true,
   },
 
-  'unknown': {
+  "redwood": {
+    state: "California",
+    peakSeason: "fall",
+    lodging: "Trinidad Bay B&B hotel",
+    bodyOfWater: "Enderts Beach",
+    wildlife: true,
+  },
+
+  unknown: {
     state: "unknown",
     peakSeason: "unknown",
     lodging: "unknown",
@@ -69,6 +77,7 @@ app.get("/api/:name", (request, response) => {
         response.json(park['unknown'])
     }
   //response.json(park);
+  
 });
 
 app.listen(process.env.PORT || PORT, () => {
