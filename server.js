@@ -68,7 +68,7 @@ app.get("/api/:name", (request, response) => {
     } else {
         response.json(park['unknown'])
     }
-  response.json(park);
+  //response.json(park);
 });
 
 app.listen(process.env.PORT || PORT, () => {
